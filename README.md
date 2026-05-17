@@ -3,6 +3,12 @@
 A bare-metal Tetris game running on the **STM32F407VET6 Black Board**, controlled by tilting the board using the **MPU-6050 IMU**, and displayed on a **0.96" SSD1306 128×64 OLED** over I2C.
 
 ---
+## Demo Video
+<a href="https://youtu.be/vA-fcwr0xfY">
+  <img src="images/image.png" alt="Tetris Game Screenshot" height="400"/>
+</a>
+
+---
 
 ## Hardware Required
 
