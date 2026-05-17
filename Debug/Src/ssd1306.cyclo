@@ -1,0 +1,16 @@
+../Src/ssd1306.c:121:13:I2C_Start	2
+../Src/ssd1306.c:127:13:I2C_Stop	1
+../Src/ssd1306.c:132:13:I2C_SendAddr	2
+../Src/ssd1306.c:139:13:I2C_SendByte	2
+../Src/ssd1306.c:145:13:I2C_WaitBTF	2
+../Src/ssd1306.c:151:13:SSD1306_WriteCmd	1
+../Src/ssd1306.c:161:13:SSD1306_WriteData	2
+../Src/ssd1306.c:176:13:SSD1306_I2C_Init	1
+../Src/ssd1306.c:206:6:SSD1306_Init	1
+../Src/ssd1306.c:235:6:SSD1306_UpdateScreen	2
+../Src/ssd1306.c:245:6:SSD1306_Clear	1
+../Src/ssd1306.c:250:6:SSD1306_DrawPixel	8
+../Src/ssd1306.c:259:6:SSD1306_FillRect	3
+../Src/ssd1306.c:266:6:SSD1306_DrawRect	3
+../Src/ssd1306.c:278:6:SSD1306_DrawChar	6
+../Src/ssd1306.c:291:6:SSD1306_DrawString	2

@@ -1,0 +1,17 @@
+C:/Users/taher/Desktop/stm32f405/my-work-example/STM32F407VET6-Tetris/chip_headers/CMSIS/Include/core_cm4.h:1814:22:__NVIC_SetPriority	16	static
+C:/Users/taher/Desktop/stm32f405/my-work-example/STM32F407VET6-Tetris/chip_headers/CMSIS/Include/core_cm4.h:2022:26:SysTick_Config	16	static
+../Src/tetris.c:14:6:SysTick_Handler	4	static
+../Src/tetris.c:16:17:millis	4	static
+../Src/tetris.c:18:13:delay_ms	24	static
+../Src/tetris.c:72:15:rand_piece	4	static
+../Src/tetris.c:81:12:piece_fits	24	static
+../Src/tetris.c:93:13:lock_piece	16	static
+../Src/tetris.c:103:16:clear_lines	32	static
+../Src/tetris.c:122:13:spawn_piece	8	static
+../Src/tetris.c:137:13:draw_board	48	static
+../Src/tetris.c:170:13:draw_panel	48	static
+../Src/tetris.c:195:13:draw_game_over	24	static
+../Src/tetris.c:222:15:read_tilt	24	static
+../Src/tetris.c:254:13:update_score	16	static
+../Src/tetris.c:267:6:Tetris_Init	8	static
+../Src/tetris.c:287:6:Tetris_Run	16	static

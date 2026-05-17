@@ -1,0 +1,11 @@
+../Src/mpu6050.c:15:13:MPU_I2C_Start	2
+../Src/mpu6050.c:20:13:MPU_I2C_Stop	1
+../Src/mpu6050.c:24:13:MPU_I2C_SendAddr	2
+../Src/mpu6050.c:30:13:MPU_I2C_SendByte	2
+../Src/mpu6050.c:35:13:MPU_I2C_WaitBTF	2
+../Src/mpu6050.c:39:16:MPU_I2C_ReadByte	3
+../Src/mpu6050.c:50:13:MPU_WriteReg	1
+../Src/mpu6050.c:61:16:MPU_ReadReg	1
+../Src/mpu6050.c:76:13:MPU_ReadBurst	4
+../Src/mpu6050.c:99:9:MPU6050_Init	1
+../Src/mpu6050.c:120:6:MPU6050_Read	1
