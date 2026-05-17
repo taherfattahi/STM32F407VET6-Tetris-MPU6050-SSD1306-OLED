@@ -4,44 +4,6 @@ A bare-metal Tetris game running on the **STM32F407VET6 Black Board**, controlle
 
 ---
 
-## Table of Contents
-
-- [STM32F407VET6 Tetris — MPU6050 + SSD1306 OLED](#stm32f407vet6-tetris--mpu6050--ssd1306-oled)
-  - [Table of Contents](#table-of-contents)
-  - [Hardware Required](#hardware-required)
-  - [Wiring](#wiring)
-    - [I2C Address Summary](#i2c-address-summary)
-    - [Wiring Diagram](#wiring-diagram)
-  - [Project Structure](#project-structure)
-  - [Module Descriptions](#module-descriptions)
-    - [`main.c` — Clock Setup \& Entry Point](#mainc--clock-setup--entry-point)
-      - [Clock Tree](#clock-tree)
-      - [Flow](#flow)
-    - [`ssd1306.h` / `ssd1306.c` — OLED Driver](#ssd1306h--ssd1306c--oled-driver)
-      - [Architecture](#architecture)
-      - [Frame Buffer Layout](#frame-buffer-layout)
-      - [I2C Protocol](#i2c-protocol)
-      - [Public API](#public-api)
-    - [`mpu6050.h` / `mpu6050.c` — IMU Driver](#mpu6050h--mpu6050c--imu-driver)
-      - [Initialisation Registers](#initialisation-registers)
-      - [Burst Read](#burst-read)
-      - [Physical Axis Orientation](#physical-axis-orientation)
-      - [Public API](#public-api-1)
-    - [`tetris.h` / `tetris.c` — Game Engine](#tetrish--tetrisc--game-engine)
-      - [Key Constants (`tetris.h`)](#key-constants-tetrish)
-      - [Tetromino Data Structure](#tetromino-data-structure)
-      - [Game Loop Flow](#game-loop-flow)
-      - [Collision Detection](#collision-detection)
-      - [Line Clear \& Scoring](#line-clear--scoring)
-      - [Wall Kick](#wall-kick)
-      - [Spawn \& Game Over](#spawn--game-over)
-  - [Game Controls](#game-controls)
-  - [Screen Layout](#screen-layout)
-  - [Contributors](#contributors)
-  - [License](#license)
-
----
-
 ## Hardware Required
 
 | Component | Description |
