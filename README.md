@@ -4,7 +4,7 @@ A bare-metal Tetris game running on the **STM32F407VET6 Black Board**, controlle
 
 ---
 ## Demo Video
-<a href="https://youtu.be/vA-fcwr0xfY">
+<a href="https://youtu.be/vPlZylZWW-Y">
   <img src="images/image.png" alt="Tetris Game Screenshot" height="400"/>
 </a>
 
